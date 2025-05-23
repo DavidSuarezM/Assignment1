@@ -1,7 +1,7 @@
- export default function Services() {
- return (
-  <>
-   <p>Services</p>
-  </>
- );
- }
+export default function Services() {
+    return (
+        <>
+            <p>Services</p>
+        </>
+    );
+}
