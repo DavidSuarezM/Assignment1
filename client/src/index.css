@@ -72,7 +72,27 @@ nav {
   font-size: x-large;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    max-width: 400px;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .form-row input, .form-row textarea {
+    flex: 1;
+    min-width: 350px;
+  }
+
 /*CHANGES
+
 
 body {
   font-family: Arial, sans-serif;
