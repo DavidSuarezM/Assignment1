@@ -5,7 +5,7 @@ export default function Layout() {
         <>
             <header>
                 <img src="dsLogo.png" alt="Logo" height="100" width="100"></img>
-                <h1>My Portfolio</h1>
+                <h1> My Portfolio</h1>
             </header>
 
             <link rel="icon" href="favicon.ico" type="image/x-icon"></link>
