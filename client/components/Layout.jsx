@@ -1,10 +1,13 @@
+
+import logo from '../src/assets/dsLogo.png';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 export default function Layout() {
     return (
         <>
             <header>
-                <img src="dsLogo.png" alt="Logo" height="100" width="100"></img>
+                <img src={logo} alt="Logo" height="100" width="100"></img>
                 <h1> My Portfolio</h1>
             </header>
 
